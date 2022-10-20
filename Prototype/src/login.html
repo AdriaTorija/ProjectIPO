@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>2Book</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>          
+    <div class="login">
+        <div class="login-header">
+          <h1>BookYourSelf</h1> <br>
+          <h1>Login</h1>
+        </div>
+        <div class="login-form">
+          <h3>Username:</h3>
+          <input type="text" id="mail" name="mail" placeholder="Username"/><br>
+          <h3>Password:</h3>
+          <input type="password" id="contra"  name="contra" placeholder="Password"/>
+          <br>
+          <label for="l1">Keep me login:</label>
+          <input type="checkbox" id="l1" name="l1"><br><br>
+          <button type="button" id="b1">Guardar</button><br>
+          <script>
+            const b = document.getElementById("b1");
+            if(b){
+                b.addEventListener("click",function(){
+                    const {ipcRenderer} = require('electron');
+                    ipcRenderer.send('Login');
+                });
+            }
+        </script> 
+        </div>
+      </div>
+</body>
+
+</html>
+

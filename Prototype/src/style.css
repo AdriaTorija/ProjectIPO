@@ -1,0 +1,31 @@
+body{
+    background: url(img/geometric-leaves.png) repeat ;
+}
+
+
+button{
+    padding: 8px;
+    font-size: 20px;
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    border-radius: 2px;
+}
+
+*{
+    font-family:  Century Gothic,CenturyGothic,AppleGothic,sans-serif ;
+    color: black;
+}
+button:hover {
+    background-color: white; 
+    color: black; 
+}
+
+#divTable{
+    display:block;
+    margin-top: 20px;
+}
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+}

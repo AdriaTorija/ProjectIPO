@@ -1,0 +1,50 @@
+body{
+    background: url(img/bananas.png) repeat ;
+}
+
+input { 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    font-size: 15px; 
+    font-weight: 400; 
+    text-align: center; 
+    background: #889ccf; 
+    margin: 0 0 25px; 
+    overflow: hidden; 
+ 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #5878ca;
+}
+
+::-webkit-input-placeholder { color: white; } 
+
+.title1{
+    color: rgba(11, 43, 226, 0.733);
+}
+
+label{
+    font-family: Georgia, serif;
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+
+button{
+    font-size: medium;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+*{
+    font-family:  Century Gothic,CenturyGothic,AppleGothic,sans-serif ;
+    color: black;
+}
